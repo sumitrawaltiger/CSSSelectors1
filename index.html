@@ -19,12 +19,33 @@
             height: 50px;
             background-color: lightyellow;
             display: inline-block; /* To apply width and height to span */
-            
+
+        }
+        .myClass {
+            color: green;
+            font-size: 16px;
+            width: 150px;
+            height: 50px;
+            background-color: lightcyan;
+            display: inline-block; /* To apply width and height to span */
+        }
+        a[href="https://www.google.com"] {
+            color: purple;
+            font-size: 14px;
+            width: 200px;
+            height: 50px;
+            background-color: lightpink;
+            display: inline-block; /* To apply width and height to anchor */
+            text-decoration: none; /* Remove underline from link */
+            text-align: center; /* Center the text inside the anchor */
+            line-height: 50px; /* Vertically center the text */
         }
     </style>
 </head>
 <body>
     <div>CSS Element Selector</div>
     <span id="mySpan">CSS ID Selector</span>
+    <span class="myClass">CSS Class Selector</span>
+    <a href="https://www.google.com">CSS Attribute Selector</a>
 </body>
 </html>
